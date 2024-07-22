@@ -9,7 +9,7 @@ This project focuses on generating captions for images using a CNN-LSTM model. T
    - Load all required libraries and modules for data handling, model building, and training. This includes TensorFlow, Keras, NumPy, and other essential packages.
 
 2. **Loading the Dataset**
-   - Downloading the Flickr 8k dataset, which contains 8,000 images and five captions per image. The dataset is split into training and testing sets.
+   - Downloaded the Flickr 8k dataset, which contains 8,000 images and five captions per image. The dataset is split into training and testing sets.
 
 3. **Text Preprocessing**
    - Clean and preprocess the text data to prepare it for model training. This includes:
@@ -19,6 +19,8 @@ This project focuses on generating captions for images using a CNN-LSTM model. T
 
 4. **Extracting Feature Vectors from Images**
    - Uses a pre-trained Convolutional Neural Network (CNN) model,I had used Xception to extract feature vectors from the images. This step reduces the dimensionality of the images while preserving important features.
+   - ![Alt text](./image.png![delta](https://github.com/user-attachments/assets/9ba569e8-e11f-4219-b27f-045ef07e4c78)
+)
 
 5. **Tokenizing the Vocabulary**
    - Tokenize the captions to create a vocabulary of unique words. Convert each word to a numerical index and vice versa. This step is crucial for feeding the text data into the model.
