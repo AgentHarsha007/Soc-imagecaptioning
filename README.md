@@ -6,7 +6,7 @@ This project focuses on generating captions for images using a CNN-LSTM model. T
 ## Steps for Final Project:
 
 1. **Importing Necessary Packages**
-   - Load all required libraries and modules for data handling, model building, and training. This includes TensorFlow, Keras, NumPy, and other essential packages.
+   - Loaded all required libraries and modules for data handling, model building, and training. This includes TensorFlow, Keras, NumPy, and other essential packages.
 
 2. **Loading the Dataset**
    - Downloaded the Flickr 8k dataset, which contains 8,000 images and five captions per image. The dataset is split into training and testing sets.
@@ -18,7 +18,7 @@ This project focuses on generating captions for images using a CNN-LSTM model. T
      - Converting all text to lowercase.
 
 4. **Extracting Feature Vectors from Images**
-   - Uses a pre-trained Convolutional Neural Network (CNN) model,I had used Xception to extract feature vectors from the images. This step reduces the dimensionality of the images while preserving important features.
+   - Uses a pre-trained Convolutional Neural Network (CNN) model,I had used Xception to extract feature vectors from the images.By taking out the last layer of output
    - ![Alt text](./delta.png)
 
 5. **Tokenizing the Vocabulary**
@@ -35,8 +35,7 @@ This project focuses on generating captions for images using a CNN-LSTM model. T
      - A dense layer to predict the next word in the sequence.
       ![Alt text](./image.png)
 
-8. **Testing the Model**
-   - Evaluate the model's performance on a test dataset by generating captions for new images and comparing them to the actual captions. Use metrics like BLEU score to quantify the model's accuracy.
+8. **Testing the Model** u can test the model ,
 ## Getting Started
 
 1. Clone the repository:
@@ -52,17 +51,10 @@ This project focuses on generating captions for images using a CNN-LSTM model. T
 
 3. Download the Flickr 8k dataset from [Flickr 8k Dataset](https://forms.illinois.edu/sec/1713398) and place it in the appropriate directory.
 
-4. Run the project:
-   ```bash
-   python main.py
-   ```
+4. Run the project:u can run the first part of code,and last two part of codes for just testing the model since i had loaded the model from custom_model.keras in Final_code.ipynb,if u to train the model along with extraction of features u can change the directories regarding data sets and work on them .
 
 ## Acknowledgments
 
 - [Flickr 8k Dataset](https://forms.illinois.edu/sec/1713398)
 - TensorFlow and Keras libraries
-- Any other resources or tutorials that were instrumental in developing this project.
-
-## License
-
-Include information about the project's license if applicable.
+- [work flow](https://docs.google.com/document/d/14ToQIyN-T8oaZ8jZlYMXsmq2_VaRVwfuDRtqFrmfAc4/edit?usp=sharing)
