@@ -19,8 +19,7 @@ This project focuses on generating captions for images using a CNN-LSTM model. T
 
 4. **Extracting Feature Vectors from Images**
    - Uses a pre-trained Convolutional Neural Network (CNN) model,I had used Xception to extract feature vectors from the images. This step reduces the dimensionality of the images while preserving important features.
-   - ![Alt text](./image.png![delta](https://github.com/user-attachments/assets/9ba569e8-e11f-4219-b27f-045ef07e4c78)
-)
+   - ![Alt text](./delta.png)
 
 5. **Tokenizing the Vocabulary**
    - Tokenize the captions to create a vocabulary of unique words. Convert each word to a numerical index and vice versa. This step is crucial for feeding the text data into the model.
