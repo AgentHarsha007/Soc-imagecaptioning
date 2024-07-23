@@ -34,8 +34,6 @@ This project focuses on generating captions for images using a CNN-LSTM model. T
      - An LSTM layer to process the sequence of words.
      - A dense layer to predict the next word in the sequence.
       ![Alt text](./image.png)
-
-8. **Testing the Model** u can test the model ,
 ## Getting Started
 
 1. Clone the repository:
