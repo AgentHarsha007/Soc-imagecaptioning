@@ -2,9 +2,8 @@
 # Image Captioning Project
 
 This project focuses on generating captions for images using a CNN-LSTM model. The dataset used is the Flickr 8k dataset. The following steps outline the process:
-# please download the custom_model.keras from my drive link [link](https://drive.google.com/drive/folders/1dY7OlJ4Mh0gqlFxN8UWFBT9CViF8RljG?usp=drive_link)
 ## Steps for Final Project:
-
+### please download the custom_model.keras from my drive link [link](https://drive.google.com/drive/folders/1dY7OlJ4Mh0gqlFxN8UWFBT9CViF8RljG?usp=drive_link)
 1. **Importing Necessary Packages**
    - Loaded all required libraries and modules for data handling, model building, and training. This includes TensorFlow, Keras, NumPy, and other essential packages.
 
