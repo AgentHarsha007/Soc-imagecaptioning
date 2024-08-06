@@ -48,7 +48,7 @@ This project focuses on generating captions for images using a CNN-LSTM model. T
 
 3. Download the Flickr 8k dataset from [Flickr 8k Dataset](https://forms.illinois.edu/sec/1713398) and place it in the appropriate directory.
 
-4. Run the project:u can run the first part of code,and last two part of codes for just testing the model since i had loaded the model from custom_model.keras in Final_code.ipynb,if you want to train the model along with extraction of features u can change the directories regarding data sets and work on them .
+4. Run the project:u can run the first two parts of code,and last two part of codes for just testing the model ,since i had loaded the model from custom_model.keras in Final_code.ipynb,if you want to train the model along with extraction of features u can change the directories regarding data sets and work on them .
 ## Acknowledgments
 
 - [Flickr 8k Dataset](https://forms.illinois.edu/sec/1713398)
